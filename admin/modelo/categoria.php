@@ -2,7 +2,7 @@
 
 require_once('../conexion/conexion.php');
 
-class Cliente {
+class Categoria {
 
     public $db;
 
@@ -11,22 +11,23 @@ class Cliente {
     }
 
 
-    public function crear_cliente($request) {
+    public function crear_categoria($request) {
 
-        $query_s = "SELECT * FROM tbl_customer WHERE `identification` = " . $request['identification'];
+        $query_s = "SELECT * FROM tbl_categoria WHERE `name` = " . $request['name'];
         $resul = $this->db->query($query_s);
         
         if($resul->num_rows == 0) {
             
-            $query = 'INSERT INTO tbl_customer (`identification`, `name`, `mobile`, `email`) VALUES (
-                "'.$request['identification'].'",
+            $query = 'INSERT INTO tbl_categoria (`name`, `image`, `description`) VALUES (
                 "'.$request['name'].'",
-                "'.$request['mobile'].'",
-                "'.$request['email'].'"
+                "'.$request['image'].'",
+                "'.$request['description'].'"
             )';
 
             $resul = $this->db->query($query);
+                
             
+
             if($resul) {
                 return true;
             } else {
@@ -61,12 +62,6 @@ class Cliente {
 
     public function buscar_cliente($id) {
         $query = "SELECT * FROM tbl_customer WHERE id =".$id;
-        return $this->db->query($query);
-    }
-
-
-    public function buscar_cliente_cedula($cedula) {
-        $query = "SELECT * FROM tbl_customer WHERE `identification` =".$cedula;
         return $this->db->query($query);
     }
 

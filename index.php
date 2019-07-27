@@ -174,26 +174,6 @@
 </div>
 
 
-<!-- Conoce Nuestro Trabajo -->
-<div class="conoce">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-				<h2> Conoce nuestro trabajo </h2>
-				<p class="textl"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				<br>
-				<div class="row">
-					<div class="col">
-						<div class="button services_button ml-auto mr-auto"><a href="index.php#contacto"><span>Contáctanos</span><span>Contactanos</span></a></div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-8">
-				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZxgMGk9JPVA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-</div>
 
 
 <!-- Nuestros Clientes -->
@@ -206,41 +186,23 @@
 		</div>
 		<div class="row icon_boxes_row">
 			<div class="row">
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
+				<div class="col-md-4">
+					<img class="imgcliente" src="images/l1.png" alt="">
 				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
+				<div class="col-md-4">
+					<img class="imgcliente" src="images/l2.png" alt="">
 				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
+				<div class="col-md-4">
+					<img class="imgcliente" src="images/l3.png" alt="">
 				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
+				<div class="col-md-4">
+					<img class="imgcliente" src="images/l4.png" alt="">
 				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
+				<div class="col-md-4">
+					<img class="imgcliente" src="images/l5.png" alt="">
 				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
-				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
-				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
-				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
-				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
-				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
-				</div>
-				<div class="col-sm-2">
-					<img class="imgcliente" src="images/logo3.png" alt="">
+				<div class="col-md-4">
+					<img class="imgcliente" src="images/l6.png" alt="">
 				</div>
 			</div>
 		</div>

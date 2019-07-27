@@ -86,7 +86,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="servicios2.php">Telefonia</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro</div>
+							<div class="doctor_title"> 
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							</div>
 							<div class="doctor_link"><a href="servicios2.php">+</a></div>
 						</div>
 					</div>
@@ -98,7 +102,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="servicios3.php">Mantenimiento</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro</div>
+							<div class="doctor_title"> 
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							</div>
 							<div class="doctor_link"><a href="servicios3.php">+</a></div>
 						</div>
 					</div>
@@ -110,7 +118,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="servicios4.php">Domotica</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro</div>
+							<div class="doctor_title"> 
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							</div>
 							<div class="doctor_link"><a href="servicios4.php">+</a></div>
 						</div>
 					</div>
@@ -122,7 +134,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="servicios5.php">Redes</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro</div>
+							<div class="doctor_title"> 
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							</div>
 							<div class="doctor_link"><a href="servicios5.php">+</a></div>
 						</div>
 					</div>

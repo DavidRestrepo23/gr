@@ -85,8 +85,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="servicios2.php">Servicio 1</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro</div>
-							<br>
+							<div class="doctor_title mb-5">
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							 </div>
 							<div class="button services_button ml-auto mr-auto"><a href="solicitarcotizacion.php"><span>Solicitar Cotización</span><span>Solicitar Cotización</span></a></div>
 							<div class="doctor_link"><a href="servicios2.php">+</a></div>
 						</div>
@@ -99,9 +102,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="#">Servicio 2</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en
-							este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro</div>
-							<br>
+							<div class="doctor_title mb-5">
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							 </div>
 							<div class="button services_button ml-auto mr-auto"><a href="solicitarcotizacion.php"><span>Solicitar Cotización</span><span>Solicitar Cotización</span></a></div>
 							<div class="doctor_link"><a href="#">+</a></div>
 						</div>
@@ -114,8 +119,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="#">Servicio 3</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro</div>
-							<br>
+							<div class="doctor_title mb-5">
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							 </div>
 							<div class="button services_button ml-auto mr-auto"><a href="solicitarcotizacion.php"><span>Solicitar Cotización</span><span>Solicitar Cotización</span></a></div>
 							<div class="doctor_link"><a href="#">+</a></div>
 						</div>
@@ -128,8 +136,11 @@
 						<div class="doctor_image"><img src="images/servicios.jpg" alt=""></div>
 						<div class="doctor_content">
 							<div class="doctor_name"><a href="#">Servicio 4</a></div>
-							<div class="doctor_title"> Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro, Una pequeña descripción, para que se vea en este recuadro</div>
-							<br>
+							<div class="doctor_title mb-5">
+								<p>
+									Una pequeña descripción, para que se vea en este recuadro
+								</p>
+							 </div>
 							<div class="button services_button ml-auto mr-auto"><a href="solicitarcotizacion.php"><span>Solicitar Cotización</span><span>Solicitar Cotización</span></a></div>
 							<div class="doctor_link"><a href="#">+</a></div>
 						</div>

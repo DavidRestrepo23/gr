@@ -35,27 +35,13 @@ CREATE TABLE `tbl_admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `tbl_category`
---
-
-CREATE TABLE `tbl_category` (
-  `id` int(10) AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  `name` varchar(50) NOT NULL,
-  `image` varchar(500) NOT NULL,
-  `description` varchar(1000) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
 --
 -- Estructura de tabla para la tabla `tbl_customer`
 --
 
 CREATE TABLE `tbl_customer` (
-  `id` int(10) AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  `identification` varchar(20) NOT NULL,
+  `id` int(10) AUTO_INCREMENT NOT NULL UNIQUE,
+  `identification` varchar(20) NOT NULL PRIMARY KEY,
   `name` varchar(50) NOT NULL,
   `mobile` varchar(50) NOT NULL,
   `email` varchar(100) NOT NULL
@@ -68,9 +54,9 @@ CREATE TABLE `tbl_customer` (
 --
 
 CREATE TABLE `tbl_quote` (
-  `id` int(10) AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  `id` int(10) AUTO_INCREMENT NOT NULL UNIQUE,
   `identification` varchar(20) NOT NULL,
-  `id_service` int(10) NOT NULL
+  `id_service` int(10) NOT NULL PRIMARY KEY
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -80,8 +66,8 @@ CREATE TABLE `tbl_quote` (
 --
 
 CREATE TABLE `tbl_gallery` (
-  `id` int(10) AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  `service_id` int(10) NOT NULL,
+  `id` int(10) AUTO_INCREMENT NOT NULL UNIQUE ,
+  `service_id` int(10) NOT NULL PRIMARY KEY,
   `name` varchar(50) NOT NULL,
   `description` varchar(1000) NOT NULL,
   `image` varchar(500) NOT NULL
@@ -94,8 +80,7 @@ CREATE TABLE `tbl_gallery` (
 --
 
 CREATE TABLE `tbl_service` (
-  `id` int(10) AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  `id_category` int(10) NOT NULL,
-  `name` varchar(50) NOT NULL,
+  `id` int(10) AUTO_INCREMENT NOT NULL UNIQUE,
+  `name` varchar(50) NOT NULL  PRIMARY KEY,
   `description` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

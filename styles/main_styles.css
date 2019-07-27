@@ -140,7 +140,7 @@ body
 .contact_input:focus,
 .contact_input:hover
 {
-	border-left: solid 3px #32c69a;
+	border-left: solid 3px #EE3749;
 }
 .contact_textarea
 {
@@ -188,7 +188,7 @@ body
 {
 	width: 275px;
 	height: 54px;
-	background: #32c69a;
+	background: #EE3749;
 	border: none;
 	outline: none;
 	color: #FFFFFF;
@@ -381,9 +381,7 @@ text-align: justify;
 	transform: translateX(-50%);
 }
 
-.imgcliente{
-	width: 100px;
-}
+
 
 .imgfooter{
 	width: 200px;
@@ -462,7 +460,7 @@ p a:hover::after
 }
 ::selection
 {
-	background: #32c69a;
+	background: #EE3749;
 	color: #FFFFFF;
 }
 p::selection
@@ -606,7 +604,7 @@ section
 {
 	width: 137px;
 	height: 54px;
-	background: #FF0000;
+	background: #EE3749;
 	overflow: hidden;
 }
 
@@ -738,7 +736,7 @@ section
 {
 	position: relative;
 	font-size: 36px;
-	color: #32c69a;
+	color: #EE3749;
 	line-height: 0.75;
 	vertical-align: text-top;
 }
@@ -765,7 +763,7 @@ section
 }
 .header_top_nav ul li a:hover
 {
-	color: #32c69a;
+	color: #EE3749;
 }
 .header_top_phone
 {
@@ -774,7 +772,7 @@ section
 .header_top_phone i
 {
 	font-size: 22px;
-	color: #32c69a;
+	color: #EE3749;
 	vertical-align: middle;
 	transform: translateY(-1px);
 }
@@ -1351,7 +1349,7 @@ section
 {
 	width: 100%;
 	height: 54px;
-	background: #32c69a;
+	background: #EE3749;
 	border: none;
 	outline: none;
 	color: #FFFFFF;
@@ -1522,7 +1520,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #FF0000;
+	background: #EE3749;
 	content: '';
 }
 .dept_title
@@ -1548,7 +1546,7 @@ section
 }
 .dept_link a:hover
 {
-	color: #32c69a;
+	color: #EE3749;
 }
 .dept_slider_nav
 {
@@ -1562,7 +1560,7 @@ section
 	right: -106px;
 	width: 42px;
 	height: 42px;
-	background: #FF0000;
+	background: #EE3749;
 	text-align: center;
 	cursor: pointer;
 }
@@ -1666,7 +1664,7 @@ section
 	width: 50px;
 	height: 100%;
 	content: '+';
-	background: #32c69a;
+	background: #EE3749;
 	font-size: 14px;
 	color: #FFFFFF;
 	font-weight: 500;
@@ -1678,7 +1676,7 @@ section
 }
 .accordion.active
 {
-	background: #32c69a;
+	background: #EE3749;
 	color: #FFFFFF;
 }
 .accordion.active::after
@@ -1770,7 +1768,7 @@ section
 }
 .latest_title a:hover
 {
-	color: #32c69a;
+	color: #EE3749;
 }
 .latest_info
 {
@@ -1802,7 +1800,7 @@ section
 }
 .latest_info ul li a:hover
 {
-	color: #32c69a;
+	color: #EE3749;
 }
 .latest_comments
 {
@@ -1812,7 +1810,7 @@ section
 {
 	font-size: 12px;
 	font-weight: 500;
-	color: #32c69a;
+	color: #EE3749;
 }
 
 /*********************************
@@ -1939,7 +1937,7 @@ section
 {
 	width: 275px;
 	height: 54px;
-	background: #32c69a;
+	background: #EE3749;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -2006,7 +2004,7 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #32c69a;
+	color: #EE3749;
 }
 .footer_links
 {
@@ -2035,18 +2033,18 @@ section
 }
 .footer_links ul li a:hover
 {
-	color: #32c69a;
+	color: #EE3749;
 }
 .footer_phone span
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #32c69a;
+	color: #EE3749;
 }
 .footer_phone i
 {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 20px;
-	color: #32c69a;
+	color: #EE3749;
 }

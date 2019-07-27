@@ -4,19 +4,12 @@
 	<div class="footer_content">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 footer_col">
+				<div class="col-lg-4 footer_col d-flex align-items-center">
 					<div class="footer_about">
 						<div class="logo">
 							<a href="#"> <img class="imgfooter" src="images/icon.png" alt=""><span></span></a>
 						</div>
-						<div class="footer_about_text">Lorem ipsum dolor sit amet, lorem maximus consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</div>
-						<div class="footer_social">
-						</div>
-						<div class="copyright">
-							Copyright &copy;<script>
-								document.write(new Date().getFullYear());
-							</script> All rights reserved | This template is made with by <a href="#">ZASOLUCIONES</a>
-						</div>
+						
 					</div>
 				</div>
 				<div class="col-lg-8 footer_col">
@@ -55,7 +48,7 @@
 
 						<div class="footer_phone ml-lg-auto">
 							<i class="fa fa-phone" aria-hidden="true"></i>
-							<span>+57 322 595 9220</span>
+							<span>+57 310 829 9220</span>
 						</div>
 					</div>
 				</div>
